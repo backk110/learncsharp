@@ -5,7 +5,7 @@
         private string _name;
         private int _age;
         private string _maSoSinhVien;
-        private string[] _monHoc;
+        private List<string> _monHoc;
 
         public Student()
         {
@@ -20,7 +20,7 @@
             }
         }
 
-        public string[] MonHoc
+        public List<string> MonHoc
         {
             get { return _monHoc; }
             set
